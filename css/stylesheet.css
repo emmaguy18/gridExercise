@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.tomato{
+  background-color:#eb2f06;
+}
+
+.livid{
+  background-color: #6a89cc;
+}
+
+.aurora{
+  background-color: #78e08f;
+}
+
+.yellow{
+  background-color: #f6b93b;
+}
+
+.teal{
+  background-color: #079992;
+}
+
+.carrot{
+  background-color:#e58e26;
+}
+
+.flesh{
+  background-color: #fad390;
+}
+
+.jalapeno{
+  background-color: #b71540;
+}
+
+.spray{
+  background-color:#82ccdd;
+}
+
+.dupain{
+  background-color: #60a3bc;
+}
+
+.waterfall{
+  background-color:#38ada9;
+}
+
+.paradise{
+  background-color: #b8e994;
+}
+
+.col{
+  min-height: 100px;
+  float: left;
+}
+
+.pageContainer{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.col12{
+  width: 100%;
+}
+
+.col11{
+width: 91.66%;
+}
+
+.col10{
+width: 83.33%;
+}
+
+.col9{
+width: 75%;
+}
+
+.col8{
+width: 66.66%;
+}
+
+.col7{
+width: 58.33%;
+}
+
+.col6{
+  width: 50%;
+}
+
+.col5{
+width: 41.66%;
+}
+
+.col4{
+width: 33.33%;
+}
+
+.col3{
+width: 25%;
+}
+
+.col2{
+width: 16.67%;
+}
+
+.col1{
+width: 8.33%;
+}
+
+.row:after{
+  clear:both;
+  display: block;
+  content: '';
+}
+
+.box{
+  min-width: 500px;
+  min-height: 300px;
+}
+
+.static{
+  position: static;
+}
+
+.relative{
+  position: relative;
+  /*width: 500px;
+  top: -100px;
+  left: 200px;*/
+}
+
+.fixed{
+  position: fixed;
+  top: 100px;
+  right: 20px;
+}
+
+.absolute{
+  position: absolute;
+  /*width: 200px;
+  min-height: 50px;
+  right: 100px;
+  bottom: 10px;*/
+}
+
+.header{
+  width: 100%;
+  height: 30vh;
+}
+
+.logo{
+  width: 20%;
+  height: 10vh;
+  top: 100px;
+  left: 100px;
+}
+
+.nav{
+  width: 100%;
+  height: 10vh;
+}
+
+.section1{
+  width: 20%;
+  height: 50vh;
+}
+
+.box1{
+  width: 11%;
+  background-color: #009432;
+}
+
+.box2{
+  width: 9%;
+  background-color: #006266;
+}
+
+.box3{
+  width: 20%;
+  background-color: #ED4C67;
+}
+
+.box4{
+  width: 10%;
+  background-color: #B53471;
+}
+
+.box5{
+  width: 10%;
+  background-color: #833471;
+}
+
+.box6{
+  width: 15%;
+  background-color: #6F1E51;
+}
+
+.section2{
+  width: 50%;
+  height: 50vh;
+  top: 276px;
+  left: 285px;
+}
+
+.section3{
+  width: 30%;
+  height: 50vh;
+  top: 276px;
+  left: 998px;
+}
+
+.footer{
+  width: 100%;
+  height: 50vh;
+}
