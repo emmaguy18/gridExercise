@@ -2,30 +2,51 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tuesday Layout Exercise</title>
-    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
   </head>
   <body>
-    <div class="header carrot">
-      <div class="logo tomato relative">
-        <p>Lorem ipsum dolor sit amet.</p>
+    <div class="pageContainer">
+      <div class="row">
+          <div class="col col12 carrot header">
+            <div class="col col3 tomato logo">
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
       </div>
+      <div class="row nav">
+        <div class="col col12 colS12 yellow"></div>
+      </div>
+<!-- this is the sidebar div -->
+<div class="row">
+  <div class="col col3 colS12 teal">
+
+    <div class="row">
+      <div class="col col6 colS12 box1"></div>
+        <div class="col col6 colS12 box2"></div>
+          </div>
+    <div class="row">
+      <div class="col col12 colS12 box3"></div>
     </div>
-    <div class="nav yellow"></div>
-<!-- this is div with boxes inside -->
-    <div class="section1 teal">
-      <div class="box1"></div>
-      <div class="box2"></div>
-      <div class="box3"></div>
-      <div class="box4"></div>
-      <div class="box5"></div>
-      <div class="box6"></div>
+    <div class="row">
+      <div class="col col6 colS12 box4"></div>
+        <div class="col col6 colS12 box5"></div>
+          </div>
+    <div class="row">
+      <div class="col col12 colS12 box6"></div>
     </div>
 
-    <div class="section2 spray absolute"></div>
-    <div class="section3 waterfall absolute"></div>
-    <div class="footer carrot"></div>
-
+  </div>
+<!--this is the two containers next to sidebar-->
+    <div class="col col6 colS12 spray"></div>
+    <div class="col col3 colS9 waterfall"></div>
+  </div>
+<!--this is the footer-->
+  <div class="row">
+    <div class="col col12 colS12 carrot"></div>
+  </div>
+  </div>
 
 
 
