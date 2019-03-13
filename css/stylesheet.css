@@ -59,7 +59,13 @@
 
 .pageContainer{
   max-width: 1000px;
+  height: 600px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
 }
 
 .col12{
@@ -121,7 +127,7 @@ width: 8.33%;
   min-height: 300px;
 }
 
-.static{
+/*.static{
   position: static;
 }
 
@@ -129,7 +135,7 @@ width: 8.33%;
   position: relative;
   /*width: 500px;
   top: -100px;
-  left: 200px;*/
+  left: 200px;
 }
 
 .fixed{
@@ -179,6 +185,29 @@ background-color: #833471;
 
 .box6{
   background-color: #6F1E51;
+}
+
+.nav{
+  width: 80%;
+  position: absolute;
+}
+
+.navitem{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.logo2{
+  width: 200px;
+  height: 100px;
+  position: relative;
 }
 
 @media screen and (max-width:800px){
