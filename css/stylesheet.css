@@ -61,11 +61,11 @@
   max-width: 1000px;
   height: 600px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
+  /*display: flex;
+  flex-direction: row;*/
   background-color: grey;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;
+  align-items: center;*/
 }
 
 .col12{
